@@ -1,4 +1,30 @@
-input {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --type-first: Helvetica, Arial, sans-serif;
+  --type-second: 'Spectral', Georgia, serif;
+  --font-color: #333;
+}
+
+body {
+  color: var(--font-color);
+  font-family: var(--type-first);
+}
+
+input,
+button {
+  color: var(--font-color);
   display: block;
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: var(--type-first);
+}
+
+.container {
+  max-width: 60rem;
+  padding: 0 1rem;
+  margin: 0 auto;
 }
