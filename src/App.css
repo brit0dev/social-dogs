@@ -5,14 +5,21 @@
 }
 
 :root {
+  --header-bg: white;
+
   --type-first: Helvetica, Arial, sans-serif;
   --type-second: 'Spectral', Georgia, serif;
   --font-color: #333;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   color: var(--font-color);
   font-family: var(--type-first);
+  padding-top: 4rem;
 }
 
 input,
