@@ -34,10 +34,10 @@ export default [
         { allowConstantExport: true },
       ],
       'react/react-in-jsx-scope': 'off',
-      'react/prop-types': 'warn',
+      'react/prop-types': 'off',
       'react/jsx-key': 'off',
       'no-unsafe-finally': 'warn',
-      'no-unused-vars': 'warn',
+      'no-unused-vars': 'off',
     },
   },
 ];
