@@ -7,9 +7,20 @@
 :root {
   --header-bg: white;
 
+  --input-bg: #eee;
+  --input-border-color: #eee;
+  --input-hover-bg: white;
+  --input-hover-border-color: #fb1;
+
+  --button-bg: #fb1;
+  --button-color: #764701;
+  --button-shadow-color: #fea;
+
   --type-first: Helvetica, Arial, sans-serif;
   --type-second: 'Spectral', Georgia, serif;
   --font-color: #333;
+
+  --error-color: #f31;
 }
 
 a {
