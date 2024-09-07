@@ -1,0 +1,119 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  /* grid-auto-flow: column;
+  grid-auto-columns: 1fr; */
+  gap: 1rem;
+}
+
+.nav a,
+.nav button,
+.mobileButton {
+  background: var(--user-navlink-bg);
+  color: inherit;
+  height: 40px;
+  width: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.nav a:hover,
+.nav button:hover,
+.nav a:focus,
+.nav button:focus,
+.nav a:global(.active) {
+  background: var(--user-navlink-bg-hover);
+  box-shadow: 0 0 0 3px var(--user-navlink-bg);
+  transition: 0.5s;
+}
+
+.nav a:global(.active) {
+  border-color: var(--user-navlink-color-active);
+  box-shadow: 0 0 0 3px var(--user-navlink-shadow-active);
+}
+.nav a:global(.active) svg > * {
+  fill: var(--user-navlink-color-active);
+}
+
+.mobileButton::after {
+  content: '';
+  background: currentColor;
+  width: 1.2rem;
+  height: 2px;
+  display: block;
+  border-radius: 0.125rem;
+  box-shadow: 0 6px currentColor, 0 -6px currentColor;
+  transition: 0.25s;
+}
+
+.mobileButton:hover,
+.mobileButton:focus,
+.mobileButtonActive {
+  outline: none;
+  color: var(--user-navlink-color-active);
+  background: var(--user-navlink-bg-hover);
+  border-color: var(--user-navlink-color-active);
+  box-shadow: 0 0 0 3px var(--user-navlink-shadow-active);
+}
+
+.mobileButtonActive::after {
+  transform: rotate(-90deg);
+  width: 4px;
+  height: 4px;
+  box-shadow: 0 8px currentColor, 0 -8px currentColor;
+}
+
+.navMobile {
+  display: block;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  padding: 0 1rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+  transform: translateX(-10px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navMobileActive {
+  transition: 0.3s;
+  transform: initial;
+  opacity: 1;
+  z-index: 100;
+  pointer-events: initial;
+}
+
+.navMobile a,
+.navMobile button {
+  background: none;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.navMobile a:hover svg > *,
+.navMobile button:hover svg > * {
+  fill: var(--user-navlink-color-active);
+}
+
+.navMobile button {
+  border-bottom: none;
+}
+
+.navMobile svg {
+  margin-right: 0.5rem;
+}
