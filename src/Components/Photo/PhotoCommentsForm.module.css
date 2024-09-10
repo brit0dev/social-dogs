@@ -1,0 +1,29 @@
+.form {
+  width: 100%;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.form textarea {
+  height: 2rem;
+  padding: 0.5rem;
+  flex: 1;
+  letter-spacing: -1px;
+  font-size: 1rem;
+  box-sizing: content-box;
+}
+
+.form button {
+  background: transparent;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  cursor: pointer;
+}
+
+.form button:hover {
+  opacity: 0.8;
+}
