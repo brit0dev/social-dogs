@@ -24,11 +24,12 @@ function PhotoCommentsForm({ id, setComments }) {
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
       <textarea
+        className={styles.textarea}
         value={comment}
         placeholder='Comente...'
         onChange={({ target }) => setComment(target.value)}
       />
-      <button>
+      <button className={styles.sendButton}>
         <DogCommentIcon />
       </button>
       <Error message={error} />

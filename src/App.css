@@ -20,6 +20,15 @@
   --input-hover-bg: white;
   --input-hover-border-color: #fb1;
 
+  --textarea-bg: #eee;
+  --textarea-bg-hover: white;
+  --textarea-border-color: #eee;
+  --textarea-border-color-hover: #fb1;
+  --textarea-shadow-color-hover: #fea;
+
+  --comment-bt-fill-hover: #fea;
+  --comment-bt-stroke-hover: #fb1;
+
   --button-bg: #fb1;
   --button-color: #764701;
   --button-shadow-color: #fea;
