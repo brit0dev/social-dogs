@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './PhotoDelete.module.css';
 import { PHOTO_DELETE } from '../../api';
 import useFetch from '../../Hooks/useFetch';
@@ -11,7 +10,7 @@ function PhotoDelete({ id }) {
 
     if (confirm) {
       const { url, options } = PHOTO_DELETE(id);
-      const { response, json } = await request(url, options);
+      const { response } = await request(url, options);
 
       if (response.ok) window.location.reload();
     }

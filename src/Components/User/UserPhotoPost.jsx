@@ -15,7 +15,7 @@ function UserPhotoPost() {
   const peso = useForm('number');
   const idade = useForm('number');
   const [img, setImg] = React.useState({});
-  const { data, error, loading, request } = useFetch();
+  const { error, loading, request } = useFetch();
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -36,7 +36,6 @@ function UserPhotoPost() {
     }
   }
   function handleImgChange({ target }) {
-    console.log('Img change');
     setImg({
       preview: URL.createObjectURL(target.files[0]),
       raw: target.files[0],

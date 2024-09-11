@@ -10,15 +10,13 @@ function UserStats() {
   const { data, error, loading, request } = useFetch();
 
   React.useEffect(() => {
-    async function getData(event) {
+    async function getData() {
       const { url, options } = STATS_GET();
 
       await request(url, options);
     }
     getData();
   }, [request]);
-
-  console.log(data);
 
   if (loading) return <Loading />;
   if (error) return <Error message={error} />;

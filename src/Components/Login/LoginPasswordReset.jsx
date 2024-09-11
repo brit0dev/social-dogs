@@ -39,7 +39,7 @@ function LoginPasswordReset() {
   }
 
   return (
-    <div>
+    <section className='animeLeft'>
       <Head title='Resetar senha' />
       <h1 className='title'>Resetar a senha</h1>
       <form onSubmit={handleSubmit}>
@@ -51,7 +51,7 @@ function LoginPasswordReset() {
         )}
       </form>
       <Error message={error} />
-    </div>
+    </section>
   );
 }
 

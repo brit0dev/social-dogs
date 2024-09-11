@@ -19,8 +19,6 @@ function UserStatsGraphs({ data }) {
     setGraph(graphData);
   }, [data]);
 
-  console.log(data.map((photo) => ({ x: photo.title, y: photo.acesso })));
-
   return (
     <section className={`${styles.graph} animeLeft`}>
       <div className={`${styles.total} ${styles.graphItem}`}>

@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Loading.module.css';
-import LoadingSvg from '../../Assets/carregando.svg?react';
 
 function Loading() {
   const [step, setStep] = React.useState(0);

@@ -1,4 +1,3 @@
-import React from 'react';
 import Input from '../Forms/Input';
 import Button from '../Forms/Button';
 import useForm from '../../Hooks/useForm';
@@ -19,12 +18,11 @@ function LoginPasswordLost() {
         url: window.location.href.replace('recoverpassword', 'resetpassword'),
       });
 
-      const { json } = await request(url, options);
-      console.log(json);
+      await request(url, options);
     }
   }
   return (
-    <section>
+    <section className='animeLeft'>
       <Head title='Recuperação de senha' />
       <h1 className='title'>Recuperação de senha</h1>
       {data ? (

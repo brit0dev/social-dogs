@@ -35,9 +35,10 @@ export default [
       ],
       'react/react-in-jsx-scope': 'off',
       'react/prop-types': 'off',
-      'react/jsx-key': 'off',
+      'react/jsx-key': 'warn',
       'no-unsafe-finally': 'warn',
-      'no-unused-vars': 'off',
+      'no-unused-vars': 'warn',
+      'no-console': ['warn', { allow: ['warn', 'error'] }],
     },
   },
 ];

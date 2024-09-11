@@ -33,7 +33,7 @@ function LoginForm() {
         ) : (
           <Button>Entrar</Button>
         )}
-        {error && <Error message={error} />}
+        {error && <Error message={error && 'Dados incorretos.'} />}
       </form>
       <Link className={styles.recoverPass} to='/login/recoverpassword'>
         Esqueci minha senha.

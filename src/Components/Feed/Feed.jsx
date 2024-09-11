@@ -10,7 +10,7 @@ function Feed({ user }) {
 
   React.useEffect(() => {
     let wait = false;
-    function infiniteScroll(event) {
+    function infiniteScroll() {
       if (infinite) {
         const scroll = window.scrollY;
         const height = document.body.offsetHeight - window.innerHeight;
