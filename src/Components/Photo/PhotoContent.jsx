@@ -20,7 +20,7 @@ function PhotoContent({ data, single }) {
             {user.data && user.data.username == photo.author ? (
               <PhotoDelete id={photo.id} />
             ) : (
-              <Link to={`/profile/${photo.author}`}>@{photo.author}</Link>
+              <Link to={`/perfil/${photo.author}`}>@{photo.author}</Link>
             )}
 
             <span className={styles.views}>{photo.acessos}</span>
