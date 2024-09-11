@@ -1,0 +1,17 @@
+.delete {
+  background: var(--delete-bt-bg);
+  padding: 0.3rem 0.6rem;
+  font-size: 0.875rem;
+  line-height: 1;
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.delete:hover,
+.delete:active {
+  background: var(--delete-bt-bg-hover);
+  border-color: var(--delete-bt-border-color);
+  box-shadow: 0 0 0 3px var(--delete-bt-shadow-color);
+  outline: none;
+}

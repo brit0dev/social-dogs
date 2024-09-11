@@ -26,6 +26,11 @@
   --textarea-border-color-hover: #fb1;
   --textarea-shadow-color-hover: #fea;
 
+  --delete-bt-bg: #ddd;
+  --delete-bt-bg-hover: white;
+  --delete-bt-border-color: var(--font-color);
+  --delete-bt-shadow-color: #eee;
+
   --comment-bt-fill-hover: #fea;
   --comment-bt-stroke-hover: #fb1;
 
