@@ -19,7 +19,7 @@ function Photo() {
   if (loading) return <Loading />;
   if (data)
     return (
-      <section className='container feed-container'>
+      <section className='container main-container'>
         <PhotoContent data={data} single={true} />
       </section>
     );

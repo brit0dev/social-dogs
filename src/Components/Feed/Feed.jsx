@@ -34,7 +34,7 @@ function Feed({ user }) {
   }, [infinite]);
 
   return (
-    <div className='feed-container'>
+    <div className='main-container'>
       {modalPhoto && (
         <FeedModal photoId={modalPhoto} setModalPhoto={setModalPhoto} />
       )}
