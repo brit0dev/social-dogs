@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
 :root {
   --header-bg: white;
   --modal-bg: white;
@@ -59,9 +64,12 @@
   --loading-fill: var(--font-color);
 }
 
-a {
+input,
+button {
   color: var(--font-color);
-  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+  font-family: var(--type-first);
 }
 
 body {
@@ -70,12 +78,14 @@ body {
   padding-top: 4rem;
 }
 
-input,
-button {
-  color: var(--font-color);
-  display: block;
-  font-size: 1rem;
-  font-family: var(--type-first);
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh + 10rem);
+}
+
+.app-body {
+  flex: 1;
 }
 
 .container {
