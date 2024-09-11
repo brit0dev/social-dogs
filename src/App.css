@@ -5,6 +5,14 @@
 }
 
 :root {
+  --img-skeleton-bg-image: linear-gradient(
+    90deg,
+    #eee 0px,
+    #fff 50%,
+    #eee 100%
+  );
+  --img-skeleton-bg-color: #eee;
+
   --header-bg: white;
   --modal-bg: white;
   --title-detail-bg: #fb1;

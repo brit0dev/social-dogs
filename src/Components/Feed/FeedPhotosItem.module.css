@@ -11,8 +11,7 @@
   grid-row: span 2;
 }
 
-.feedItem img {
-  width: 100%;
+.feedItem > div {
   grid-area: 1/1;
 }
 
