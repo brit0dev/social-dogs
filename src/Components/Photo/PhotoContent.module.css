@@ -96,3 +96,17 @@
   position: relative;
   top: 3px;
 }
+
+.single.photoContainer {
+  height: auto;
+  grid-template-columns: 1fr;
+}
+
+.single img {
+  grid-row: 1;
+  border-radius: 0.4rem;
+}
+
+.single .details {
+  padding: 1rem 0 0 0;
+}

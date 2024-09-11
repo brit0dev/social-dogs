@@ -56,3 +56,7 @@
     opacity: 1;
   }
 }
+
+.single.form {
+  padding: 1rem 0.2rem;
+}
