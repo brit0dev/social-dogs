@@ -58,7 +58,7 @@ This project was developed using the following technologies:
 
 1. Clone this repository:
   ```bash
-  git clone https://github.com/your-username/social-dogs.git
+  git clone https://github.com/brit0dev/social-dogs.git
   ```
 2. Navigate to the project folder:
   ```bash
