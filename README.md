@@ -4,13 +4,13 @@
 ![Screenshot 2025-02-12 at 17-54-52 Home Social Dogs](https://github.com/user-attachments/assets/7e2252d1-d770-496d-8170-d681ff4d72e8)
 ![Screenshot 2025-02-12 at 17-52-47 Estatísticas Social Dogs](https://github.com/user-attachments/assets/33001806-9b20-41f4-be78-fda81deea4a3)
 -->
-# 🐶 Social Dogs - Social Network for Dogs
+# Social Dogs - Social Network for Dogs
 
 Welcome to **Social Dogs**, a project developed during the React course by Origamid. The goal of this application is to provide an interactive and engaging experience for users, allowing them to share photos of their dogs, discover new posts, and interact with a community of pet lovers.
 
 The project was built using **Vite** for a fast and optimized development environment.
 
-## </> Technologies Used
+## Technologies Used
 
 This project was developed using the following technologies:
 
@@ -23,7 +23,7 @@ This project was developed using the following technologies:
 - **ESLint** - Code quality and linting tool
 
 
-## 📋 Project Features
+## Project Features
 
 - User registration and login
 - Photo uploads
@@ -54,7 +54,7 @@ This project was developed using the following technologies:
   </tr>
 </table>
 
-## 📂 How to Run the Project
+## How to Run the Project
 
 1. Clone this repository:
   ```bash
